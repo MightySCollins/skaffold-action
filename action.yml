@@ -2,11 +2,9 @@ name: 'Skaffold Action'
 description: 'Get started with Container actions'
 author: 'MightySCollins'
 inputs: 
-  action:
-    description: 'Skaffold Action such as build, run and deploy'
+  skaffold:
+    description: "Skaffold CLI: [flags] [options]"
     default: 'run'
 runs:
   using: 'docker'
   image: 'Dockerfile'
-  args:
-    - ${{ inputs.action }}
