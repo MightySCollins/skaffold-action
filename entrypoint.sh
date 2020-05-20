@@ -1,3 +1,3 @@
 #!/bin/sh -l
 
-skaffold $1
+sh -c "skaffold ${INPUT_SKAFFOLD}"
