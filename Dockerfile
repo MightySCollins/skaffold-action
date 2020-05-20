@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM gcr.io/k8s-skaffold/skaffold:latest
 
 COPY LICENSE README.md /
 
